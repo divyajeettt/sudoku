@@ -23,7 +23,7 @@ The following features are provided in the game:
 - Numbers (1-9): Enter the number in the selected cell
 - Numbers (1-9) on numeric-keypad: Enter upto 4 guesses in the cell
 
-*Note: Enter an already entered number in the selected cell to remove it. Guesses are inserted in a [FIFO](https://en.wikipedia.org/wiki/FIFO) manner.*
+*Note: Enter an already entered number in the selected cell to remove it. Guesses are inserted in a [FIFO]([https://en.wikipedia.org/wiki/FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))) manner.*
 
 ## Change the Speed of the visualization of solver
 
