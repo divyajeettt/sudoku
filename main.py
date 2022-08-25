@@ -64,7 +64,7 @@ GRID: list[list[int]] = generator.grid()
 HINT_INDICES: list[tuple[int, int]] = []
 GUESSES: list[list[list[int]]] = [[[] for _ in range(9)] for _ in range(9)]
 
-LINES: list[list[list[pygame.Rect]] = [
+LINES: list[list[list[pygame.Rect]]] = [
     [
         [pygame.Rect(BOX*i-1, 0, (3 if i % 3 else 6), SIDE), BLACK]
         for i in range(10)
