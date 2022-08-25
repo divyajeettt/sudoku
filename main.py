@@ -33,36 +33,38 @@ pygame.font.init()
 screens.main()
 
 
-SIDE = 625        # side of the main window
-BOX = SIDE / 9    # side of each cell
+SIDE: float = 625.0        # side of the main window
+BOX: float = SIDE / 9      # side of each cell
 
 WINDOW = pygame.display.set_mode((SIDE+200, SIDE+5))
-FPS = 60
+FPS: int = 60
 
-LEVEL = screens.level
+LEVEL: int = screens.level
 HINTS = {1: 35, 2: random.randint(25, 30), 3: random.randint(20, 22)}[LEVEL]
 EMPTY = 81 - HINTS
 
 # colors
-BLACK = (0, 0, 0)
-WHITE = (255, 255, 255)
-GRAY = (190, 190, 190)
-GREEN = (0, 150, 0)
-ORANGE = (255, 165, 0)
-YELLOW = (255, 215, 0)
-RED = (255, 0, 0)
-BLUE = (0, 0, 255)
+Color = tuple[int, int, int]
+
+BLACK: Color = (0, 0, 0)
+WHITE: Color = (255, 255, 255)
+GRAY: Color = (190, 190, 190)
+GREEN: Color = (0, 150, 0)
+ORANGE: Color = (255, 165, 0)
+YELLOW: Color = (255, 215, 0)
+RED: Color = (255, 0, 0)
+BLUE: Color = (0, 0, 255)
 
 FONT0 = pygame.font.SysFont("consolas", 20)
 FONT1 = pygame.font.SysFont("consolas", 30)
 FONT2 = pygame.font.SysFont("consolas", 35)
 
-GRID = generator.grid()
+GRID: list[list[int]] = generator.grid()
 
-HINT_INDICES = []
-GUESSES = [[[] for _ in range(9)] for _ in range(9)]
+HINT_INDICES: list[tuple[int, int]] = []
+GUESSES: list[list[list[int]]] = [[[] for _ in range(9)] for _ in range(9)]
 
-LINES = [
+LINES: list[list[list[pygame.Rect]] = [
     [
         [pygame.Rect(BOX*i-1, 0, (3 if i % 3 else 6), SIDE), BLACK]
         for i in range(10)
@@ -73,7 +75,7 @@ LINES = [
     ],
 ]
 
-SOLVING_DELAY = 50
+SOLVING_DELAY: int = 50
 
 pygame.display.set_caption(f"Sudoku (LEVEL: {LEVEL})")
 
