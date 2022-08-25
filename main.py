@@ -10,7 +10,7 @@ import solver
 """
 CONTROLS:
 
-Left-click (on a box): Select the cell to select a cell
+Left-click (on a box/cell): Select the cell
 Arrow Keys: Change the selected cell
 Backspace/Delete: Empty out the selected cell
 Numbers (1-9): Enter the number in the selected cell*
