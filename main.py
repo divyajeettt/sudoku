@@ -25,7 +25,7 @@ To visualize the backtracking, the solving algo has been slowed down.
 To change the speed of the algorithm:
     • increase the speed by decreasing the value of SOLVING_DELAY
     • decrease the speed by increasing the value of SOLVING_DELAY
-variable SOLVING_DELAY defined on LINE: 76
+variable SOLVING_DELAY defined on LINE: 78
 """
 
 
