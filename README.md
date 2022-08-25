@@ -10,10 +10,22 @@ This project is a single-player. After choosing a difficulty level, the player c
 ## Features
 
 The following features are provided in the game:
-- Three difficulty levels, i.e., easy, medium, and hard.
-- A sudoku-generator that generates random sudoku-grids.
-- A sudoku-solver that solves a sudoku-grid using backtracking.
-- Visualization of working of the solving algorithm.
+- Three difficulty levels, i.e., easy, medium, and hard
+- A sudoku-generator that generates random sudoku-grids
+- A sudoku-solver that solves a sudoku-grid using backtracking
+- Visualization of working of the solving algorithm, with a variable speed
+
+## Controls
+
+- Left-click (on a box): Select the cell to select a cell
+- Arrow Keys: Change the selected cell
+- Backspace/Delete: Empty out the selected cell
+- Numbers (1-9): Enter the number in the selected cell
+- Numbers (1-9) on numeric-keypad: Enter upto 4 guesses in the cell
+
+*Note: Enter an already entered number in the selected cell to remove it. Guesses are inserted in a [FIFO](https://en.wikipedia.org/wiki/FIFO) manner.*
+
+## Change the Speed of the visualization of solver
 
 ## Footnotes
 
