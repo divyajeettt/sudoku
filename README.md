@@ -47,3 +47,4 @@ python3 main.py
 - [Sudoku-Solver Tutorial with Backtracking Pt. 1 (YouTube)](https://www.youtube.com/watch?v=eqUwSA0xI-s)
 - [Sudoku-Solver Tutorial with Backtracking Pt. 2 (YouTube)](https://www.youtube.com/watch?v=lK4N8E6uNr4)
 - [Sudoku-Grid Generator (YouTube)](https://www.youtube.com/watch?v=LHCHH5siBCg)
+- [SudokuGridGenerator (GitHub)](https://github.com/mfgravesjr/finished-projects/tree/master/SudokuGridGenerator)
