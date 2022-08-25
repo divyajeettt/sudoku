@@ -27,9 +27,9 @@ The following features are provided in the game:
 
 ## Change the Speed of the visualization of solver
 
-The solver-algorithm has been slowed down to visualize the backtracking has been slowed down. To change the speed of the algorithm, go to [Line 77]() in `main.py` and:
-- <b>Increase the speed</b> by decreasing the value of the variable `SOLVING_DELAY`
-- <b>Decrease the speed</b> by increasing the value of the variable `SOLVING_DELAY`
+The solver-algorithm has been slowed down to visualize the backtracking has been slowed down. To change the speed of the algorithm, go to [Line 77]() in `main.py` and change the value of the variable `SOLVING_DELAY`:
+- <b>Increase the speed</b> by decreasing `SOLVING_DELAY`
+- <b>Decrease the speed</b> by increasing `SOLVING_DELAY`
 
 Time complexity of Solver: `O(9ᴹ)`, where `M` is the number of unfilled cells (Attributing to the fact that there are 9 possibilities for each empty cell).
 
