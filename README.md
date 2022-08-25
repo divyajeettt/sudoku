@@ -13,12 +13,14 @@ The following features are provided in the game:
 - Three difficulty levels, i.e., easy, medium, and hard.
 - A sudoku-generator that generates random sudoku-grids.
 - A sudoku-solver that solves a sudoku-grid using backtracking.
+- Visualization of working of the solving algorithm.
 
 ## Footnotes
 
 - Difficulty level corresponds to the number of cells of the grid whose values are known. The harder the level, the fewer initial values are given.
 - The number of cells initially given are chosen randomly according to the selected level.
 - Some sudoku-grids have [multiple solutions](https://masteringsudoku.com/can-sudoku-have-multiple-solutions/).
+- <b>Do not</b> close the application while the algorithm is solving the Sudoku as ongoing system processes may cause the app to crash.
 
 ## Run
 
