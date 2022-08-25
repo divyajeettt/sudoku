@@ -29,7 +29,7 @@ The following features are provided in the game:
 
 ## Footnotes
 
-- Difficulty level corresponds to the number of cells of the grid whose values are known. The harder the level, the fewer initial values are given.
+- Difficulty level corresponds to the number of cells of the grid whose values are known. The harder the level, the fewer initial values are given in the grid.
 - The number of cells initially given are chosen randomly according to the selected level.
 - Some sudoku-grids have [multiple solutions](https://masteringsudoku.com/can-sudoku-have-multiple-solutions/).
 - <b>Do not</b> close the application while the algorithm is solving the Sudoku as ongoing system processes may cause the app to crash.
