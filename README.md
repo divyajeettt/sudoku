@@ -2,7 +2,8 @@
 
 ## About sudoku
 
-sudoku is a simple playable [Sudoku Game](https://en.wikipedia.org/wiki/Sudoku) which is built using [`pygame`](https://www.pygame.org/docs/) in Python. It is a graphical-user interface based project. \
+sudoku is a simple playable [Sudoku Game](https://en.wikipedia.org/wiki/Sudoku) which is built using [`pygame`](https://www.pygame.org/docs/) in Python. It is a graphical-user interface based project.
+
 *Date of creation:* `27 June, 2021`
 
 This project is a single-player. After choosing a difficulty level, the player can start solving the puzzle on the 9×9 Grid.
