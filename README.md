@@ -29,8 +29,8 @@ The following features are provided in the game:
 ## Change the speed of visualization of the solver
 
 The solving-algorithm has been slowed down to visualize the backtracking. To change its speed, go to [Line 78](https://github.com/divyajeettt/sudoku/blob/5de7e4737595f8eb88356cb185de44a3f9a0b2d2/main.py#L78) in `main.py` and change the value of the variable `SOLVING_DELAY`:
-- <b>Increase the speed</b> by decreasing the DELAY
-- <b>Decrease the speed</b> by increasing the DELAY
+- **Increase the speed** by decreasing the DELAY
+- **Decrease the speed** by increasing the DELAY
 
 For reference, Line 78 is the following variable definition:
 
@@ -45,7 +45,7 @@ Time complexity of Solver: `O(9ᴹ)`, where `M` is the number of unfilled cells 
 - Difficulty level corresponds to the number of initially filled cells in the grid. The harder the level, the fewer initial values are given in the grid.
 - The number of cells initially given are chosen randomly according to the selected level.
 - Some sudoku-grids have [multiple solutions](https://masteringsudoku.com/can-sudoku-have-multiple-solutions/).
-- <b>Do not close</b> the application while the algorithm is solving the Sudoku as ongoing system processes may cause the app to crash.
+- **Do not close** the application while the algorithm is solving the Sudoku as ongoing system processes may cause the app to crash.
 
 ## Run
 
